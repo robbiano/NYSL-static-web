@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/estilos.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Northside Youth Soccer League</h1>
+        <input type="checkbox" name="" id="btnMenu">
+        <label for="btnMenu"><img class="hamburger" src="img/PinClipart.com_menu-clip-art_5328945.png"
+                alt="boton menu ">
+        </label>
+
+        <nav class="links">
+            <a href="index.html">Home</a>
+            <a href="about.html"> About NYSL</a>
+            <a href="contact.html">Contact</a>
+            <a href="rules.html">Rules</a>
+            <a href="game_info.html">Info</a>
+            <a href="">Registration</a>
+        </nav>
+    </header>
+
+    <a href="index.html"><img class="logo" src="img/nysl_logo.png" alt="logo NYSL"></a>
+
+    <div class="redes">
+        <!--REDES-->
+        <a href="https://twitter.com/search?q=northside%20youth%20soccer%20league&src=typed_query"><img
+                src="img/1485482340-twitter_78668.ico" width="30px" alt="twiter"></a>
+        <a href="https://www.facebook.com/NorthsideSoccerLeague"><img
+                src="img/communication_facebook_media_network_social_icon_123272.ico" width="30px" alt="facebook"></a>
+        <a href="https://www.instagram.com/northsideyouthsoccer/?hl=es-la"><img
+                src="img/1491580658-yumminkysocialmedia06_83104.ico" width="30px" alt="instagram"></a>
+    </div>
+
+    <div class="form-wrapper">
+        <form class="" action="show_data.html" id="formulario" name="formulario" method="GET">
+            <h1>Registration Form</h1>
+            <input class="entere-form" type="text" name="Name" id="" placeholder="Player’s First Name" required>
+            <input class="entere-form" type="text" name="LastName" id="" placeholder="Last Name" required>
+            <input class="entere-form" type="text" name="Address" id="" placeholder="Street Address" required>
+            <input class="entere-form" type="text" name="City" id="" placeholder="City" required>
+            <input class="entere-form" type="text" name="ZipCode" id="" placeholder="Zip Code" required>
+            <select class="" name="Grade">
+                <option name="" value="" selected="">Grade</option>
+                <option name="Pre-School" value="Pre-School">Pre-School</option>
+                <option name="1st" value="1st">1st</option>
+                <option name="2st" value="2st">2st</option>
+                <option name="3st" value="3st">3st</option>
+                <option name="4st" value="4st">4st</option>
+                <option name="5st" value="5st">5st</option>
+            </select>
+            <span class="birthday-text">Bitrh Date</span>
+            <input class="birthdate" type="date" name="BirthDate" id="" placeholder="Birth Day" required>
+            <div class="gender">
+                <span>Gender</span>
+                <label for="m">
+                    <input class="radio" type="radio" name="gender" id="m" value="M" required> Male
+                </label>
+                <label for="f">
+                    <input class="radio" type="radio" name="gender" id="f" value="F" required> Female
+                </label>
+            </div>
+
+            <select class="" name="NearestElementary">
+                <option disabled selected>Which elementary school do you live near?</option>
+                <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                <option value="Greenbay">Greenbay</option>
+                <option value="Howard A Yeager">Howard A Yeager</option>
+                <option value="Marjorie P Hart">Marjorie P Hart</option>
+                <option value="North Elementary">North Elementary</option>
+                <option value="South Elementary">South Elementary</option>
+            </select>
+
+            <div class="play-position">
+                <h3>What position(s) do you normally play? (check all that apply)</h3>
+                <div>
+                    <label for="Forward">
+                        <input class="radio" type="checkbox" name="PlayPosition" id="Forward" value="Forward"
+                            value="Forward">
+                        Forward
+                    </label>
+                    <label for="Defense">
+                        <input class="radio" type="checkbox" name="PlayPosition" id="Defense" value="Defense"> Defense
+                    </label>
+                </div>
+                <div>
+                    <label for="Midfield">
+                        <input class="radio" type="checkbox" name="PlayPosition" id="Midfield" value="Midfield">
+                        Midfield
+                    </label>
+                    <label for="Goalkeeper">
+                        <input class="radio" type="checkbox" name="PlayPosition" value="Goalkeeper" id="Goalkeeper">
+                        Goalkeeper
+                    </label>
+                </div>
+            </div>
+
+            <div class="uniform-size">
+                <select class="" name="Uniform-Size">
+                    <option disabled selected>Uniform-Size</option>
+                    <option value="Youth Small">Youth Small</option>
+                    <option value="Youth Medium">Youth Medium</option>
+                    <option value="Youth Large">Youth Large</option>
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="Extra-Large">Extra-Large</option>
+                </select>
+            </div>
+
+            <div class="permision">
+                <h3>Permission to Play</h3>
+                <p>
+                    I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all
+                    the
+                    rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury
+                    associated with soccer and in consideration for the “League” accepting the registrant for its soccer
+                    programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+                    employees
+                    and associated personnel and volunteers,including the facilities used for practices and games,
+                    against
+                    any claim by or on behalf of the registrant as a result of the registrant’s participation in the
+                    programand/orbeing transported to or from NYSL sponsored activities,which transportation
+                    By signing below, I herebyagree andauthorizethe above.In addition, by signing below, Ialso
+                    acknowledge
+                    that I have read the cancellation policy and agree to its terms.
+                </p>
+                <input class="signature" type="text" name="ParentGuardianSignature" id="" placeholder="Signature"
+                    required>
+                <input class="signature-date" type="date" name="Date" id="" required>
+            </div>
+
+            <input class="button" type="submit" Name="agree" value="AGREE">
+        </form>
+    </div>
+</body>
+
+</html>

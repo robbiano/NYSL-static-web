@@ -1,0 +1,510 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#btnMenu{
+    display: none;
+}
+
+.hamburger{
+    width: 40px;
+    padding:10px;
+}
+
+.background-negro{
+    background-color: black;
+    padding-bottom: 100px;
+}
+
+body{
+    background-image: url(../img/21178258960_982b594cc2_b.jpg);
+    background-size: cover;
+    
+}
+
+header h1{
+    color: aliceblue;
+    margin-top: 70px;
+    font-size: 30px;
+    text-align: center;
+}
+
+header{
+    background-color: black;
+}
+
+.title{
+    margin-top: 70px;
+    padding-bottom: 30px;
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 130px;
+    margin: 15px;
+}
+
+.redes{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.redes img{
+    width: 35px;
+    margin: 5px;
+}
+
+nav{
+    background-color: black;
+    text-align: center;
+    padding: 20px; 
+}
+
+nav a{
+    padding: 0px 20px 0px 0px  ;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(0, 255, 0);
+    border-right: solid 1px rgb(0, 255, 0) ;
+}
+
+nav a:hover{
+    color:rgba(0, 255, 0, 0.61) ;
+}
+
+.content{               /*contenedor  home-about-contact pages*/
+    box-shadow: inset 0px 0px 10px rgb(60, 255, 0);;
+    width: 500px;
+    display: block;
+    margin:auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.76);
+    border: solid 1px rgb(0, 255, 0); 
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.content-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.content h2{
+    padding: 10px;
+    text-align: center;
+}
+
+.content h3{
+    padding: 10px;
+}
+
+.content p{
+    padding: 10px;
+}
+
+.contact-page-email{
+    color: rgb(21, 255, 0);
+}
+
+.list-wrapper{                 /*contenedor listas*/
+    width: 80%;
+    display: block;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 40px;
+    background-color: rgba(14, 165, 0, 0.226);
+    box-shadow: inset 0px 0px 40px rgb(9, 114, 0);
+    color: aliceblue;
+    border-radius: 5px;   
+}
+
+.list-wrapper h2{
+    margin: 20px; 
+}
+
+.list-wrapper h3{
+    margin: 15px;
+}
+
+li{
+    margin: 30px;
+}
+
+ul{
+    margin: 10px;
+}
+
+ol{
+    margin: 10px; 
+}
+
+.letra{
+    list-style-type: lower-latin;
+}
+
+.table-wrapper{                 /*contenedor tablas*/
+    width: 80%;
+    display: block;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 40px;
+    background-color: rgba(14, 165, 0, 0.247);
+    box-shadow: inset 0px 0px 30px rgba(14, 165, 0, 0.76);
+    color: aliceblue;
+    border-radius: 5px;   
+}
+
+.table-main{              /*tabla principal*/
+    margin-top: 10px;
+    width: 100%;
+    border: solid 1px;
+    border-collapse: collapse;
+}
+
+.table-main th{
+    width:20%;
+    padding: 20px;
+    border: solid 1px rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+
+.table-main td{
+    text-align: center;
+    padding: 10px;
+    border: solid 1px rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+
+tr:hover{     /*hover para facilitar lectura de tabla*/
+    background-color: rgba(0, 255, 34, 0.178);
+    box-shadow: inset 0px 0px 5px;
+}
+
+.table-date{
+    background-color: rgb(5, 39, 0);
+}
+
+.table-locations{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.table-locations th{
+    width:20%;
+    padding: 20px;
+}
+
+.table-locations td{
+    text-align: center;
+    padding: 10px;
+}
+
+.table-locations a{
+    color: rgb(214, 214, 168);
+    font-weight: 700;
+}
+
+.map{                                  /*map*/
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.info-page-footer{
+    color: white;
+    display: block;
+    margin: auto;
+    width: 80%;
+    padding: 5px;
+}
+
+.info-page-footer a {
+    color: rgb(0, 255, 0);
+}
+
+.info-page-footer p{
+    margin-bottom: 5px;
+}
+
+.form-wrapper h1{                       /*formulario*/
+    margin-bottom: 30px;
+}
+
+.form-wrapper{
+    display: block;
+    margin: auto;
+    width: 60%;
+    background-color: rgba(0, 37, 0, 0.959);
+    color: white;
+    padding: 30px;
+    box-shadow: inset 0px 0px 100px rgb(0, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 60px;
+    padding-bottom: 50px;
+    border: solid 1px rgba(255, 166, 0, 0.397);
+}
+
+.form-wrapper h3{
+    margin: 10px;
+}
+
+.gender{
+    margin: 20px;
+}
+
+.gender span{
+    display: block;
+    margin-bottom:20px;
+}
+
+.gender label{
+    margin: 20px;
+}
+
+.entere-form{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.birthday-text{
+    display: block;
+    margin: 20px;
+    color: rgb(255, 166, 0);
+}
+
+.birthdate{
+    border: solid 1px orange;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    width: 50%;
+    background-color: rgba(255, 166, 0, 0.479);
+}
+
+input{
+    font-size: large;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 2px rgba(0, 0, 0, 0);
+    border-bottom: solid 1px white;
+    color: rgb(90, 168, 1);
+}
+
+select{
+    width: 53.5%;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(90, 168, 1);
+    border: solid 2px rgba(0, 0, 0, 0);
+    border-bottom: solid 1px white;
+    font-size: large;
+}
+
+::placeholder{
+    color: rgb(90, 168, 1);
+}
+
+.play-position{
+    border-radius: 5px;
+    padding:20px;
+    margin: 30px;
+    border: solid 1px green;
+}
+
+.play-position div{
+    display: inline-block;
+}
+
+.play-position label{
+    margin-right: 10px;
+}
+
+.uniform-size{
+    margin-bottom: 30px;
+}
+
+.permision{
+    margin: 20px;
+    text-align: justify;
+    border: solid 1px red;
+    padding:10px;
+    border-radius: 5px;
+}
+
+.permision .signature{
+    color: rgb(90, 168, 1);
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.signature-date{
+    color: rgb(90, 168, 1);
+    padding: 17px;
+}
+
+.permision h3{
+    color: red;
+}
+
+.button{
+    width: 80%;
+    background-color:rgb(238, 155, 0);
+    color: black;
+    border: solid 1px black;
+    box-shadow: 4px 4px 0px rgb(104, 104, 104);
+    padding: 15px;
+    font-size: large;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+@media(min-width:800px){
+    .hamburger{
+        display: none;
+    }
+}
+
+@media(max-width:800px){                /* mobile version*/
+
+    #btnMenu:checked ~ .links{
+        margin-left: 100%;
+        
+    }
+
+    body{
+        background-size: inherit;
+    }
+
+    .content{
+        padding: 1px;
+        width: 98%;
+    }
+
+    header{
+        padding: 5px;
+    }
+
+    .hamburger{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    nav a{
+        display: flex;
+        font-size: large;
+        border: solid 1px rgb(0, 0, 0);
+        margin: 0;
+        padding: 15px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        box-shadow: inset 0px 0px 70px green;
+    }
+
+    .links a:hover{
+        background-color: rgb(0, 114, 25);
+        color: black;
+    }
+
+    .links{
+       width: 100%;
+       padding: 0;
+       position: absolute;
+       top: 170px;
+       left: -100%;
+       transition:  0.5s; 
+    }
+
+    .logo{
+     display: none;
+    }
+
+    .redes{
+        display: none;
+    }
+
+    .list-wrapper{
+        width: 95%;
+        margin: 5px ;
+        padding: 5px;
+    }
+
+    td{
+        padding: 0px;
+    }
+    
+    .table-wrapper{
+        padding-top: 20px;
+        width: 98%;
+        margin: 5px ;
+        padding: 0px;
+        background-color: black;   
+    }
+
+    .table-wrapper h3{
+        margin-left: 15px;
+    }
+
+    .table-main td,tr{
+        border: solid 2px rgb(0, 102, 22);
+    }
+    
+    .table-main th{
+        font-size: xx-small;
+        background-color: rgba(0, 126, 27, 0.87);
+        border: 2px rgb(0, 255, 0);
+    }
+
+    .info-page-footer{
+        width: 95%;
+    }
+
+    .form-wrapper{
+        width: 95%;
+        padding: 5px; 
+        padding-bottom: 50px;
+    }
+
+    .entere-form{
+        width: 80%;
+    }
+
+    select{
+        width: 88%;
+    }
+
+    .uniform-size label{
+        display: block;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .play-position div{
+        display:flex
+    }
+
+    .play-position label{
+        margin-bottom: 10px;
+        margin: 20px;
+    }
+  
+}
+
